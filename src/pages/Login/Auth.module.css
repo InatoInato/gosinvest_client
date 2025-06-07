@@ -1,0 +1,82 @@
+.authContainer {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 60px;
+  background-color: #0a0a3a;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(43, 253, 187, 0.1);
+  color: white;
+}
+
+.tabSwitcher {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.tabButton {
+  flex: 1;
+  padding: 12px;
+  background-color: #0a0a3a;
+  color: #2bfdbb;
+  border: 1px solid #2bfdbb;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.tabButton:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.active {
+  background-color: #2bfdbb;
+  color: #0a0a3a;
+  border: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form h2 {
+  text-align: center;
+  color: #2bfdbb;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #2b3f7d;
+  background-color: #0f1544;
+  color: white;
+  font-size: 14px;
+}
+
+.error {
+  border: 1px solid red;
+  background-color: #3b0000;
+}
+
+.form button {
+  padding: 12px;
+  background-color: transparent;
+  color: #2bfdbb;
+  border: 1px solid #2bfdbb;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #2bfdbb;
+  color: #0a0a3a;
+}

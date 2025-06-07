@@ -1,0 +1,66 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 0 100px;
+  background-color: #0a0a3a;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.20);
+}
+
+.logo {
+  color: #f9e3a5;
+  font-size: 24px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.logo:hover{
+  font-size: 26px;
+}
+
+.link {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s, 0.3s;
+}
+
+.link:hover {
+  font-weight: 700;
+  transform: translateY(-1px);
+  font-size: 17px;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.side {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px;
+  border: 1px #fff solid;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.login:hover {
+  color: #0a0a3a;
+  background-color: #fff;
+}

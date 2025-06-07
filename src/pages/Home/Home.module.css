@@ -1,0 +1,124 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 140px 0px;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: #0a0a3a;
+  margin: 20px 0;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 12px;
+  border: 1px #0a0a3a solid;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #fff;
+  background-color: #0a0a3a;
+}
+
+.textBlock {
+  flex: 1;
+  min-width: 300px;
+}
+
+.textBlock h1 {
+  font-size: 55px;
+  margin-bottom: 16px;
+  color: #212643;
+}
+
+.textBlock p {
+  font-size: 22px;
+  color: #444;
+}
+
+.wallet {
+  flex: 1;
+  max-width: 500px;
+  min-width: 250px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.loanSection {
+  background-color: #0a0a3a;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding: 20px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  background-color: #111c55;
+  border-radius: 16px;
+  padding: 25px 20px;
+  max-width: 300px;
+  min-width: 240px;
+  text-align: left;
+  flex: 1;
+  transition: transform 0.3s;
+  border: 1px solid #2b3f7d;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardTitle {
+  color: #2bfdbb;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  border: 1px solid #2bfdbb;
+  background-color: transparent;
+  color: #2bfdbb;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2bfdbb;
+  color: #0a0a3a;
+}
+
+.benefitsTitle {
+  color: #000;
+  font-size: 32px;
+  padding: 80px 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+
+.benefitsSection {
+  padding: 60px 20px;
+  color: #fff;
+}
